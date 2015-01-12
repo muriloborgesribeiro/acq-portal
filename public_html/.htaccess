@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^acquaticaparqueenautica\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.acquaticaparqueenautica\.com\.br$
+RewriteRule ^/?$ "http\:\/\/www\.acquatica\.tur\.br\/" [R=301,L]
+
